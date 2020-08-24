@@ -40,7 +40,7 @@
   for (SubTableView * tableView in self.subTableviews) {
     tableView.canScroll = cellCanScroll;
     if (cellCanScroll) {
-//      NSLog(@"可以滑动了...");
+      NSLog(@"可以滑动了...");
     }else{
       tableView.contentOffset = CGPointZero;
     }
@@ -48,14 +48,12 @@
 }
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView{
-  
   NSInteger viewTag = scrollView.tag;
-  
   for (NSInteger i = 0; i < self.subTableviews.count; i ++) {
     if (viewTag == i) {
       SubTableView * tableview = self.subTableviews[i];
       if (tableview.canScroll) {
-//        NSLog(@"😄😄😄😄😄😄😄😄");
+        NSLog(@"😄😄😄😄😄😄😄😄");
       }else{
         tableview.contentOffset = CGPointZero;
       }
