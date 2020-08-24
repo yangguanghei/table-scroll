@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,13 @@
 		18B0B11224EFBA8100AAF547 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B0B11124EFBA8100AAF547 /* main.m */; };
 		18B0B11C24EFBA8200AAF547 /* _1______sectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B0B11B24EFBA8200AAF547 /* _1______sectionTests.m */; };
 		18B0B12724EFBA8200AAF547 /* _1______sectionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B0B12624EFBA8200AAF547 /* _1______sectionUITests.m */; };
+		18F7DF3F24F3A1B600F4F48C /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F7DF3E24F3A1B600F4F48C /* CustomTableViewCell.m */; };
+		18F7DF4224F3A3B700F4F48C /* MainTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F7DF4124F3A3B700F4F48C /* MainTableView.m */; };
+		18F7DF4524F3A49600F4F48C /* MainScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F7DF4424F3A49600F4F48C /* MainScrollView.m */; };
+		18F7DF4E24F3A9EC00F4F48C /* TableViewHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F7DF4D24F3A9EC00F4F48C /* TableViewHeader.m */; };
+		18F7DF5124F3AFC800F4F48C /* SubTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F7DF5024F3AFC800F4F48C /* SubTableView.m */; };
+		18F7DF5424F3AFF700F4F48C /* ConatinTBTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F7DF5324F3AFF700F4F48C /* ConatinTBTableViewCell.m */; };
+		87FC068CB276E945D8A44F44 /* libPods-11.偏移到某个section.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2050CBE2821783B1C74C0D49 /* libPods-11.偏移到某个section.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +61,21 @@
 		18B0B12224EFBA8200AAF547 /* 11.偏移到某个sectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "11.偏移到某个sectionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B0B12624EFBA8200AAF547 /* _1______sectionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_1______sectionUITests.m"; sourceTree = "<group>"; };
 		18B0B12824EFBA8200AAF547 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F7DF3D24F3A1B600F4F48C /* CustomTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		18F7DF3E24F3A1B600F4F48C /* CustomTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		18F7DF4024F3A3B700F4F48C /* MainTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTableView.h; sourceTree = "<group>"; };
+		18F7DF4124F3A3B700F4F48C /* MainTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTableView.m; sourceTree = "<group>"; };
+		18F7DF4324F3A49600F4F48C /* MainScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainScrollView.h; sourceTree = "<group>"; };
+		18F7DF4424F3A49600F4F48C /* MainScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainScrollView.m; sourceTree = "<group>"; };
+		18F7DF4C24F3A9EC00F4F48C /* TableViewHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewHeader.h; sourceTree = "<group>"; };
+		18F7DF4D24F3A9EC00F4F48C /* TableViewHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewHeader.m; sourceTree = "<group>"; };
+		18F7DF4F24F3AFC800F4F48C /* SubTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubTableView.h; sourceTree = "<group>"; };
+		18F7DF5024F3AFC800F4F48C /* SubTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubTableView.m; sourceTree = "<group>"; };
+		18F7DF5224F3AFF700F4F48C /* ConatinTBTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConatinTBTableViewCell.h; sourceTree = "<group>"; };
+		18F7DF5324F3AFF700F4F48C /* ConatinTBTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConatinTBTableViewCell.m; sourceTree = "<group>"; };
+		2050CBE2821783B1C74C0D49 /* libPods-11.偏移到某个section.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-11.偏移到某个section.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCB2EF1D3E62055C01923668 /* Pods-11.偏移到某个section.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-11.偏移到某个section.debug.xcconfig"; path = "Target Support Files/Pods-11.偏移到某个section/Pods-11.偏移到某个section.debug.xcconfig"; sourceTree = "<group>"; };
+		BFBBBF33CF56336067D8AECA /* Pods-11.偏移到某个section.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-11.偏移到某个section.release.xcconfig"; path = "Target Support Files/Pods-11.偏移到某个section/Pods-11.偏移到某个section.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87FC068CB276E945D8A44F44 /* libPods-11.偏移到某个section.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +104,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0931E825B03C9AD4985878C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BCB2EF1D3E62055C01923668 /* Pods-11.偏移到某个section.debug.xcconfig */,
+				BFBBBF33CF56336067D8AECA /* Pods-11.偏移到某个section.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		18B0B0F324EFBA7D00AAF547 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +120,8 @@
 				18B0B11A24EFBA8200AAF547 /* 11.偏移到某个sectionTests */,
 				18B0B12524EFBA8200AAF547 /* 11.偏移到某个sectionUITests */,
 				18B0B0FD24EFBA7D00AAF547 /* Products */,
+				0931E825B03C9AD4985878C4 /* Pods */,
+				A5A0FBE6145170DA8E9991FF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +144,18 @@
 				18B0B10324EFBA7D00AAF547 /* SceneDelegate.m */,
 				18B0B10524EFBA7D00AAF547 /* ViewController.h */,
 				18B0B10624EFBA7D00AAF547 /* ViewController.m */,
+				18F7DF4C24F3A9EC00F4F48C /* TableViewHeader.h */,
+				18F7DF4D24F3A9EC00F4F48C /* TableViewHeader.m */,
+				18F7DF4324F3A49600F4F48C /* MainScrollView.h */,
+				18F7DF4424F3A49600F4F48C /* MainScrollView.m */,
+				18F7DF4024F3A3B700F4F48C /* MainTableView.h */,
+				18F7DF4124F3A3B700F4F48C /* MainTableView.m */,
+				18F7DF3D24F3A1B600F4F48C /* CustomTableViewCell.h */,
+				18F7DF3E24F3A1B600F4F48C /* CustomTableViewCell.m */,
+				18F7DF5224F3AFF700F4F48C /* ConatinTBTableViewCell.h */,
+				18F7DF5324F3AFF700F4F48C /* ConatinTBTableViewCell.m */,
+				18F7DF4F24F3AFC800F4F48C /* SubTableView.h */,
+				18F7DF5024F3AFC800F4F48C /* SubTableView.m */,
 				18B0B10824EFBA7D00AAF547 /* Main.storyboard */,
 				18B0B10B24EFBA8100AAF547 /* Assets.xcassets */,
 				18B0B10D24EFBA8100AAF547 /* LaunchScreen.storyboard */,
@@ -137,6 +183,14 @@
 			path = "11.偏移到某个sectionUITests";
 			sourceTree = "<group>";
 		};
+		A5A0FBE6145170DA8E9991FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2050CBE2821783B1C74C0D49 /* libPods-11.偏移到某个section.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +198,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18B0B12B24EFBA8200AAF547 /* Build configuration list for PBXNativeTarget "11.偏移到某个section" */;
 			buildPhases = (
+				A4D9BED85D123AF528F8FBFA /* [CP] Check Pods Manifest.lock */,
 				18B0B0F824EFBA7D00AAF547 /* Sources */,
 				18B0B0F924EFBA7D00AAF547 /* Frameworks */,
 				18B0B0FA24EFBA7D00AAF547 /* Resources */,
+				12F97712DF767FDE093E2BA5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -262,14 +318,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12F97712DF767FDE093E2BA5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-11.偏移到某个section/Pods-11.偏移到某个section-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-11.偏移到某个section/Pods-11.偏移到某个section-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-11.偏移到某个section/Pods-11.偏移到某个section-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4D9BED85D123AF528F8FBFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-11.偏移到某个section-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		18B0B0F824EFBA7D00AAF547 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F7DF5124F3AFC800F4F48C /* SubTableView.m in Sources */,
+				18F7DF4E24F3A9EC00F4F48C /* TableViewHeader.m in Sources */,
 				18B0B10724EFBA7D00AAF547 /* ViewController.m in Sources */,
 				18B0B10124EFBA7D00AAF547 /* AppDelegate.m in Sources */,
+				18F7DF4224F3A3B700F4F48C /* MainTableView.m in Sources */,
+				18F7DF4524F3A49600F4F48C /* MainScrollView.m in Sources */,
+				18F7DF5424F3AFF700F4F48C /* ConatinTBTableViewCell.m in Sources */,
 				18B0B11224EFBA8100AAF547 /* main.m in Sources */,
+				18F7DF3F24F3A1B600F4F48C /* CustomTableViewCell.m in Sources */,
 				18B0B10424EFBA7D00AAF547 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,11 +541,13 @@
 		};
 		18B0B12C24EFBA8200AAF547 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCB2EF1D3E62055C01923668 /* Pods-11.偏移到某个section.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N4686HA3AU;
 				INFOPLIST_FILE = "11.偏移到某个section/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,11 +560,13 @@
 		};
 		18B0B12D24EFBA8200AAF547 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFBBBF33CF56336067D8AECA /* Pods-11.偏移到某个section.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N4686HA3AU;
 				INFOPLIST_FILE = "11.偏移到某个section/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
