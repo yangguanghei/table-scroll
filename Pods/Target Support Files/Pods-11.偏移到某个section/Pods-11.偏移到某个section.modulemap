@@ -1,0 +1,6 @@
+framework module Pods_11______section {
+  umbrella header "Pods-11.偏移到某个section-umbrella.h"
+
+  export *
+  module * { export * }
+}
